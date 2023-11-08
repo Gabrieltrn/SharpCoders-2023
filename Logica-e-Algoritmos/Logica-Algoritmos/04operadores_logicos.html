@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operadoresLogicos</title>
+    <script>
+        /*
+            E -> &&
+            OU -> ||
+            NÃO -> !
+        */ 
+
+        //  DADOS DE ENTRADA
+            let valor = prompt("Informe o valor da compra");
+            let tipoPagamento = confirm("Pagamento à  vista")
+
+            document.write(valor +" "+tipoPagamento);
+            // CONDICIONAL
+            if(valor >= 200 && tipoPagamento == true){
+                document.write(`Total a pagar R$ ${valor*0.9}`)
+            } else{
+                document.write(`Total a paga R$ ${valor}`)
+            }
+
+            //  CONVERSÃO DE DADOS
+            //  1° TEXTO PRA NÚMERO INTEIRO - parseInt()
+            //  2° TEXTO PARA NÚMERO REAL -  parseFloat()
+            //  3° NUMERO PARA TEXTO - toString()
+
+            // OPEARDOR TERNÁRIO
+            
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

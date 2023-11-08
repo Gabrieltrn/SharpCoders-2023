@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // VETOR
+        let nomes = ['Aline','Bruno','Carlos','Diana','Elaine'];
+
+        // OBTER NOME
+        let obterNome=prompt("Informe um nome");
+
+        
+        // VARIAVEL PARA VERIFICAR SE EXISTE O  NOME
+
+        let existe = false;
+        
+        // VERIFICAR SE O NOME EXISTE
+        for(let indice=0; indice<nomes.length;indice++){
+            if(obterNome == nomes[indice]){
+                existe = true;
+            }
+        }
+
+        // CONDICIONAL
+        if(existe){
+            alert("o nome existe no vetor");
+        } else{
+            alert("o nome não exite no vetor");
+        }
+        
+        
+        
+        // LACO DE REPETIÇÃO
+        // for(let indice=0; indice<nomes.length;indice++){
+        //     document.write(nomes[indice] + "<br>");
+        // }
+       
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // funcao para enviar dados
+        function enviar(formulario){
+            // capturando valores do inputs
+            let nome = (formulario[0].value);
+            let idade = parseInt(formulario[1].value);
+
+            // mensagem
+            alert(`Boa noite ${nome}, você tem ${idade}anos`)
+        }
+    </script>
+</head>
+<body>
+    <!-- tag de formulario -->
+    <form action="#" onsubmit="enviar(this)">
+        <input type="text"   placeholder="Informe seu nome">
+        <br>
+        <input type="number" placeholder="Informe sua idade">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

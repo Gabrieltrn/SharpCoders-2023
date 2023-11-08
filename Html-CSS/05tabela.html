@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border:05px solid black
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- exemplo 01 -->
+    <table>
+        <tr>
+            <td>Nome</td>
+            <td>Cidade</td>
+            <td>E-mail</td>
+        </tr>
+
+        
+        <!-- tr>td*3 ja cria a linha e colundas  -->
+        <tr>
+            <td>ALICE</td>
+            <td>NITEROI</td>
+            <td>ALICE@GMAIL.COM</td>
+        </tr>
+        
+    </table>
+    <!-- divisao -->
+    <hr>
+
+    <!-- exemplo 02 -->
+    <table>
+        <thead>
+            <tr>
+                <th>aluno</th>
+                <th>Media</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Lucas</td>
+                <td>8,9</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <!-- colspan tag usada para mesclar colunas -->
+                <td colspan="2">foi encontrado apenas um registro</td>
+                
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

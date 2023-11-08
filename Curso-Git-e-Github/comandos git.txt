@@ -1,0 +1,32 @@
+git init : inicializa o repositorio git(necessario)
+
+git add : prepara os arquivos para serem commitados
+
+git commit -m : faz o commit dos arquivos preparados
+
+git status : ve o status antes do commit
+
+git rm --cached :  volta o arquivo 
+
+git add . : adciona todos os arquivos
+
+git log : ve todos os commits
+
+.gitignore : criar o arquivo no vs code e depois nomear os que deseja ignorar no projeto 
+
+git branch development : cria a branch de desenvolvedor
+
+git checkout + nome da branch : troca de branchs
+
+clear : limpa o terminal
+
+ctrnl + j : abre o terminal
+
+git merge + nome : junta uma branch na outra desejada
+
+
+
+obj pizza = new pizza(){
+	return pizza.sabor(quatroqueijos)
+}
+	console.log(pizza)
