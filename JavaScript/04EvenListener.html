@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04-EvenListener</title>
+
+    <script>
+
+        // AO CARREGAR
+        window.onload = function(){
+            // CRIAR UM ELEMENTO DE BOTAO
+            let botao = document.createElement('button');
+            botao.innerText = 'Clique Aqui'
+            botao.value = 'Informação Secreta'
+
+            // ADICIONAR O EVENLISTENER
+            botao.addEventListener('click',(objbotao)=>{
+                alert(objbotao.target.value);
+            });
+
+            // ADICIONAR O BOTAO NA PAGINA
+            document.getElementsByTagName('body')[0].appendChild(botao);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

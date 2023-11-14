@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05-VETOR</title>
+
+    <script>
+
+        // NOMES
+        let nomes = ['Alice','Bruno','Carla','Daniel','Ellen']
+
+        
+
+        // MAP
+        nomes.map(obj => document.write(obj+'<hr>'))
+
+        // FILTER
+        let nomesContendoA = nomes.filter(nome => {
+            return nome.toLocaleLowerCase().indexOf('a') != -1
+        });
+
+        document.write(nomesContendoA)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
