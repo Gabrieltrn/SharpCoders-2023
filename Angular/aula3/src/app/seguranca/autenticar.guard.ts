@@ -6,7 +6,7 @@ export const autenticarGuard: CanActivateFn = (route, state) => {
   const rota = new Router;
 
   // validaçao
-  if(localStorage.getItem('email') == undefined) {
+  if(localStorage.getItem('email') === undefined) {
     rota.navigateByUrl('/login');
   }
   
