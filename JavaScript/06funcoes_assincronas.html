@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06-funcoes_assincronas</title>
+
+    <script>
+        
+        // FUNÇÃO MENSAGEM 2
+        function mensagem1() {
+            return new Promise((retorno) => {
+                setTimeout(() => {
+                retorno('Primeira mensagem');
+            }, 1000);
+            });
+        }
+
+           
+        // FUNÇÃO MENSAGEM 2
+           function mensagem2() {
+            return 'Segunda mensagem';
+        }
+
+       
+        // FUNÇÃO PARA EXECUTAR AS MENSAGENS
+        async function executarMensagens() {
+           
+            // OBTER O RETORNO DAS MENSAGENS
+            // await é usado sempre quando tiver um tempo grande de espera
+            let retorno1 = await mensagem1();
+            let retorno2 = mensagem2();
+
+            console.log(retorno1);
+            console.log(retorno2);
+        }
+
+        // CHAMAR FUNÇÃO
+        executarMensagens();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
