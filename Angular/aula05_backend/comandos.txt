@@ -1,0 +1,13 @@
+1- criar uma estrutura json-server
+dependendo da maquina pode ser o comando (a) ou o comando (b)
+
+a) npm i json-server
+
+b) npx i json-server
+
+2-Executar o arquivo as vezes pode ser um ou outro
+
+a) npm json-server nomedoarquivo.json
+
+b) npx json-server nomedoarquivo.json
+

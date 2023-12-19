@@ -1,0 +1,13 @@
+1- comando para criar componente de aluno
+
+ng g c componentes/aluno
+
+2- criar serviço de aluno
+
+ng g s serviço/aluno
+
+3-executar o projeto
+
+ng s  
+
+ng server
